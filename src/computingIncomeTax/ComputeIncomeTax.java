@@ -1,5 +1,12 @@
 package computingIncomeTax;
-
+/**
+ * This is a program to determine change over 9 yrs in income tax 
+ * Before and after the passage of the Tax Cuts and Job Act (TCJA)
+ * Which went into effect January 1, 2018.
+ * This program will not take into account deductions, exemptions etc
+ * @author nitrocyborc
+ * @version 9/4/2018
+ * */
 import java.util.Scanner;
 
 public class ComputeIncomeTax {
