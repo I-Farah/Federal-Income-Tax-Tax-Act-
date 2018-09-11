@@ -124,7 +124,7 @@ public class ComputeIncomeTax {
 			}
 			// 35% rate
 			else {
-				taxPay = (separateTaxRate10 * .1) + (separateTaxRate15 * .15) + (separateTaxRate25 * .25) + (separateTaxRate28 * .28) + (separateTaxRate33 * .33) + ((income - 372950) * .35);
+				taxPay = (separateTaxRate10 * .1) + (separateTaxRate15 * .15) + (separateTaxRate25 * .25) + (separateTaxRate28 * .28) + (separateTaxRate33 * .33) + ((income - 186475) * .35);
 			}
 		}
 		else if (filingStatus == 4) {
