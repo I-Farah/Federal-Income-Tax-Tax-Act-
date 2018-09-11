@@ -21,8 +21,9 @@ public class ComputeIncomeTax {
 		}
 		System.out.print("Type in your Income: ");
 		double income = scan.nextDouble();
-		double taxPay = 0;
-		double taxPay2 = 0;
+		
+		double taxPay = 0.0;
+		double taxPay2 = 0.0;
 		// 2009 tax bracket difference
 		int singleTaxRate10 = 8350;
 		int singleTaxRate15 = 25600;
@@ -314,7 +315,7 @@ public class ComputeIncomeTax {
 		else {
 			System.out.println("Type in only one number from 1-4");
 		}
-		
+	
 		System.out.println("In 2009, before the Tax Cut and Job Act, you would have paid $" + taxPay + " in taxes.");
 		System.out.println("For 2018, after the Tax Cut and Job Act, you will pay $" + taxPay2 + " in taxes.");
 		scan.close();
