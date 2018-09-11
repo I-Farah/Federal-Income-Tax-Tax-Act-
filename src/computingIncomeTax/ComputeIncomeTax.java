@@ -153,10 +153,7 @@ public class ComputeIncomeTax {
 				taxPay = (headTaxRate10 * .1) + (headTaxRate15 * .15) + (headTaxRate25 * .25) + (headTaxRate28 * .28) + (headTaxRate33 * .33) + ((income - 372950) * .35);
 			}
 		}
-		else {
-			System.out.println("Type in only one number from 1-4");
-		}
-		
+
 		//2018 Tax bracket difference
 		int single2018TaxRate10 = 9525;
 		int single2018TaxRate12 = 29175;
@@ -312,9 +309,7 @@ public class ComputeIncomeTax {
 				taxPay2 = (head2018TaxRate10 * .1) + (head2018TaxRate12 * .12) + (head2018TaxRate22 * .22) + (head2018TaxRate24 * .24) + (head2018TaxRate32 * .32) + (head2018TaxRate35 * .35) +((income - (head2018TaxRate37)) * .37);
 			}
 		}
-		else {
-			System.out.println("Type in only one number from 1-4");
-		}
+
 	
 		System.out.println("In 2009, before the Tax Cut and Job Act, you would have paid $" + taxPay + " in taxes.");
 		System.out.println("For 2018, after the Tax Cut and Job Act, you will pay $" + taxPay2 + " in taxes.");
